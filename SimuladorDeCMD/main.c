@@ -52,7 +52,7 @@ void verificaComando(char palavra[51]){
 }
 
 void comandosSuportados(char palavra[51]){
-    printf("limpar\tajuda\tip\ndesligar agora\tarvore\tdiretorios\tversao java\tabrir cmd\n");
+    printf("limpar\najuda\nip\ndesligar agora\narvore\ndiretorios\nversao java\nabrir cmd\n");
     printf("\n");
 }
 

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1557496376 source:c:\users\igorw\documents\c\simuladordecmd\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+

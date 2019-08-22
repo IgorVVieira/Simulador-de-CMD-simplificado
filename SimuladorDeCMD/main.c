@@ -6,6 +6,7 @@ void imprimiCMD(){
     printf(">");
 }
 
+//Procedimento que recebe uma string como entrada e a compara com os comandos suportados
 void verificaComando(char palavra[51]){
     if (strcmp (palavra, "limpar") == 0){
         system("cls");
@@ -51,11 +52,13 @@ void verificaComando(char palavra[51]){
     }
 }
 
+//Lista todos comandos "suportados"
 void comandosSuportados(char palavra[51]){
     printf("limpar\najuda\nip\ndesligar agora\narvore\ndiretorios\nversao java\nabrir cmd\n");
     printf("\n");
 }
 
+//Função principal que irá rodar até receber como entrada "sair"
 int main(void){
     char nome[51];
     printf("Simulador de CMD que responde comando em Portugues v0.1\n");

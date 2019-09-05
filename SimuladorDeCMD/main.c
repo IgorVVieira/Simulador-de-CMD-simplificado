@@ -45,6 +45,16 @@ void verificaComando(char palavra[51]){
         system("start");
         printf("\n");
     }
+    
+    else if(strcmp(palavra, "propriedades do sistema") == 0){
+    	system("systeminfo");
+    	printf("\n");
+	}
+	
+	else if(strcmp(palavra, "versao windows") == 0){
+		system("ver");
+		printf("\n");
+	}
 
     else{
         printf("Comando %s nao encontrado...\n",palavra);
@@ -54,7 +64,7 @@ void verificaComando(char palavra[51]){
 
 //Lista todos comandos "suportados"
 void comandosSuportados(char palavra[51]){
-    printf("limpar\najuda\nip\ndesligar agora\narvore\ndiretorios\nversao java\nabrir cmd\n");
+    printf("limpar\najuda\nip\ndesligar agora\narvore\ndiretorios\nversao java\nabrir cmd\npropriedades do sistema\nversao windows");
     printf("\n");
 }
 

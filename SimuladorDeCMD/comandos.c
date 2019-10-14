@@ -48,6 +48,12 @@ void verificaComando(char palavra[51]){
 	else if(strcmp(palavra, "criar arquivo") == 0){
         criaArquivo();
 	}
+	else if(strcmp(palavra, "piton") == 0){
+        system("python");
+	}
+	else if(strcmp(palavra,"versao piton") == 0){
+        system("python --version");
+	}
     else{
         printf("Comando %s nao encontrado...\n",palavra);
         printf("\n");
@@ -56,7 +62,7 @@ void verificaComando(char palavra[51]){
 
 //Lista todos comandos suportados
 void comandosSuportados(char palavra[51]){
-    printf("-limpar\n-juda\nip\n-desligar agora\n-arvore\n-diretorios\n-versao java\n-abrir cmd\n-propriedades do sistema\n-versao windows\n-criar arquivo");
+    printf("-limpar\n-juda\n-ip\n-desligar agora\n-arvore\n-diretorios\n-versao java\n-abrir cmd\n-propriedades do sistema\n-versao windows\n-criar arquivo\n-piton\n-versao piton");
     printf("\n");
 }
 

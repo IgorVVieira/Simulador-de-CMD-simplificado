@@ -5,13 +5,19 @@
 	<windows.h>
 	<string.h>
 
-1570120201 source:c:\users\igorw\documents\c\simulador-de-cmd-simplificado\simuladordecmd\main.c
+1571019122 source:c:\users\igorw\documents\c\simulador-de-cmd-simplificado\simuladordecmd\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"comandos.h"
 
-1570120928 c:\users\igorw\documents\c\simulador-de-cmd-simplificado\simuladordecmd\comandos.h
+1571019122 c:\users\igorw\documents\c\simulador-de-cmd-simplificado\simuladordecmd\comandos.h
 	<stdio.h>
 	<stdlib.h>
+
+1571019528 source:c:\users\igorw\documents\c\simulador-de-cmd-simplificado\simuladordecmd\comandos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"comandos.h"
 

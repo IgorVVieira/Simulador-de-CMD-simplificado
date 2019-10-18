@@ -7,8 +7,8 @@ Possui comandos simples, que podem ser acessados pelo comando: "ajuda" durante a
 
 ## Pré-requisitos
 ```
- * É necessário ter uma IDE ou editor de código com o compilador em C.
- * Sistema Operacional Windows.
+É necessário ter uma IDE ou editor de código com o compilador em C.
+Sistema Operacional Windows.
 ```
 
 ## Construído com

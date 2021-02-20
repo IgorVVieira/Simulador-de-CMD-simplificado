@@ -68,7 +68,7 @@ void comandosSuportados(char palavra[51]){
 
 void criaArquivo(){
     FILE *file = fopen("Arquivo.txt","wr");
-     fclose(file);
+    fclose(file);
     printf("Arquivo vazio criado com sucesso!\n");
 }
 
